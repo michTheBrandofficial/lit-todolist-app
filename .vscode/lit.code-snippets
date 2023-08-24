@@ -1,0 +1,19 @@
+{
+  "littm": {
+    "scope": "typescript, html",
+    "prefix": "tl",
+    "body": "${$0}"
+  },
+  "inte": {
+    "body": "interface Lit${TM_SELECTED_TEXT}<T extends HTMLElement> extends SyntheticEvent<T>, ${TM_SELECTED_TEXT} {}",
+    "prefix": "inte"
+  },
+  "slot": {
+    "prefix": "slot",
+    "body": "<slot $0 ></slot>"
+  },
+  "btn": {
+    "prefix": "btn",
+    "body": "{ button: $1, path: $0 }"
+  }
+}
